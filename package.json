@@ -1,0 +1,26 @@
+{
+  "name": "reduxtagram",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "dashdash": "^1.14.1",
+    "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.0",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts-with-stylus start src/client/styles/style.styl",
+    "build": "react-scripts-with-stylus build src/client/styles/style.styl",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "create-react-app-stylus": "^1.1.1"
+  }
+}
